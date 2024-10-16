@@ -5,7 +5,7 @@ const express = require("express");
 const {getInbox} = require("../controller/inboxController");
 const decorateHtmlResponse = require("../middlewares/common/decorateHtmlResponse");
 
-
+//implement the router
 const router = express.Router();
 
 
